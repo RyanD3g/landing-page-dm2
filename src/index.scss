@@ -1,0 +1,41 @@
+:root {
+  --black-bg-color-one: #1a1717;
+
+  --blue-title-logo: #283AFF;
+  --blue-title-header-and-bg: #2231D9;
+  --blue-border-after-title: #2434E8;
+
+  --gray-text-example-about: #545454;
+
+  //Fonts
+
+  --font-title-and-subtitle: 'Inter';
+  --font-text-header-and-categories: 'Poppins';
+  --font-subtext-header: 'Archivo';
+
+  --font-buttons: 'Archivo';
+
+  --font-title-screen-2: 'Archivo Black';
+  --font-subtitle-screen-2: 'Archivo';
+  --font-vantagens-screen-2: 'Archivo';
+  
+  --font-title-screen-3: 'Poppins';
+  --font-title-after-button-screen-3: 'Poppins';
+  --font-options-screens-3: 'Archivo';
+
+  --font-title-screen-4: 'Poppins';
+  --font-comment-screen-4: 'Archivo';
+}
+
+*{
+  margin: 0;
+  padding: 0;
+
+  body{
+    background-color: var(--black-bg-color-one);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+}

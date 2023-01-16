@@ -1,0 +1,397 @@
+.comments{
+    width: 100%;
+    height: 40rem;
+    background-color: var(--blue-title-header-and-bg);
+    margin-top: 10rem;
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        .title{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 30%;
+            h1{
+                color: #FFFF;
+                font-family: var(--font-title-screen-4);
+                font-size: 1.7rem;
+                margin-top: 2rem;
+                font-weight: 900;
+            }
+        }
+        .comment{
+            width: 100%;
+            height: 100%;
+            .comment_one{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                height: 18rem;
+                .perfil{
+                    display: flex;
+                    width: 50%;
+                    height: 90%;
+                    flex-direction: column;
+                    background-color: #FFFF;
+                    border-radius: 1rem;
+                    .header{
+                        display: flex;
+                        width: 100%;
+                        height: 30%;
+                        .photo{
+                            width: 4rem;
+                            height: 4rem;
+                            border-radius: 3rem;
+                            margin-left: 2rem;
+                            margin-top: 0.70rem;
+                            background-image: url('../../assets/img/users/Photo.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                        }
+                        h5{
+                            margin-top: 2rem;
+                            margin-left: 1rem;
+                            font-family: var(--font-comment-screen-4);
+                        }
+                    }
+                    .text{
+                        max-width: 90%;
+                        height: 100%;
+                        margin: 0 auto;
+                        p{
+                            text-align: center;
+                            margin-top: 2.5rem;
+                            font-family: var(--font-comment-screen-4);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 715px) {
+    .comments{
+        width: 100%;
+        height: 40rem;
+        background-color: var(--blue-title-header-and-bg);
+        margin-top: 10rem;
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 90%;
+            height: 100%;
+            margin: 0 auto;
+            .title{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                height: 30%;
+                h1{
+                    color: #FFFF;
+                    font-family: var(--font-title-screen-4);
+                    font-size: 1.7rem;
+                    margin-top: 2rem;
+                    font-weight: 900;
+                }
+            }
+            .comment{
+                width: 100%;
+                height: 100%;
+                .comment_one{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 18rem;
+                    .perfil{
+                        display: flex;
+                        width: 80%;
+                        height: 80%;
+                        flex-direction: column;
+                        background-color: #FFFF;
+                        border-radius: 1rem;
+                        .header{
+                            display: flex;
+                            width: 100%;
+                            height: 30%;
+                            .photo{
+                                width: 4rem;
+                                height: 4rem;
+                                border-radius: 3rem;
+                                margin-left: 2rem;
+                                margin-top: 0.70rem;
+                                background-image: url('../../assets/img/users/Photo.jpeg');
+                                background-position: center;
+                                background-size: cover;
+                            }
+                            h5{
+                                margin-top: 2rem;
+                                margin-left: 1rem;
+                                font-family: var(--font-comment-screen-4);
+                            }
+                        }
+                        .text{
+                            max-width: 90%;
+                            height: 100%;
+                            margin: 0 auto;
+                            p{
+                                text-align: center;
+                                margin-top: 2.5rem;
+                                font-family: var(--font-comment-screen-4);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 665px) {
+    .comments{
+        width: 100%;
+        height: 40rem;
+        background-color: var(--blue-title-header-and-bg);
+        margin-top: 10rem;
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 90%;
+            height: 100%;
+            margin: 0 auto;
+            .title{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                height: 30%;
+                h1{
+                    color: #FFFF;
+                    font-family: var(--font-title-screen-4);
+                    font-size: 1.7rem;
+                    margin-top: 2rem;
+                    font-weight: 900;
+                }
+            }
+            .comment{
+                width: 100%;
+                height: 100%;
+                .comment_one{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 18rem;
+                    .perfil{
+                        display: flex;
+                        width: 80%;
+                        height: 80%;
+                        flex-direction: column;
+                        background-color: #FFFF;
+                        border-radius: 1rem;
+                        .header{
+                            display: flex;
+                            width: 100%;
+                            height: 30%;
+                            .photo{
+                                width: 4rem;
+                                height: 4rem;
+                                border-radius: 3rem;
+                                margin-left: 2rem;
+                                margin-top: 0.70rem;
+                                background-image: url('../../assets/img/users/Photo.jpeg');
+                                background-position: center;
+                                background-size: cover;
+                            }
+                            h5{
+                                margin-top: 2rem;
+                                margin-left: 1rem;
+                                font-family: var(--font-comment-screen-4);
+                            }
+                        }
+                        .text{
+                            max-width: 90%;
+                            height: 100%;
+                            margin: 0 auto;
+                            p{
+                                text-align: center;
+                                margin-top: 2.5rem;
+                                font-family: var(--font-comment-screen-4);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 471px) {
+    .comments{
+        width: 100%;
+        height: 40rem;
+        background-color: var(--blue-title-header-and-bg);
+        margin-top: 10rem;
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 90%;
+            height: 100%;
+            margin: 0 auto;
+            .title{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                height: 30%;
+                h1{
+                    color: #FFFF;
+                    font-family: var(--font-title-screen-4);
+                    font-size: 1.5rem;
+                    margin-top: 2rem;
+                    font-weight: 900;
+                }
+            }
+            .comment{
+                width: 100%;
+                height: 100%;
+                margin-top: -3rem;
+                .comment_one{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 18rem;
+                    .perfil{
+                        display: flex;
+                        width: 100%;
+                        height: 80%;
+                        flex-direction: column;
+                        background-color: #FFFF;
+                        border-radius: 1rem;
+                        margin-top: 1.8rem;
+                        .header{
+                            display: flex;
+                            width: 100%;
+                            height: 30%;
+                            .photo{
+                                width: 4rem;
+                                height: 4rem;
+                                border-radius: 3rem;
+                                margin-left: 2rem;
+                                margin-top: 0.70rem;
+                                background-image: url('../../assets/img/users/Photo.jpeg');
+                                background-position: center;
+                                background-size: cover;
+                            }
+                            h5{
+                                margin-top: 2rem;
+                                margin-left: 1rem;
+                                font-family: var(--font-comment-screen-4);
+                            }
+                        }
+                        .text{
+                            max-width: 90%;
+                            height: 100%;
+                            margin: 0 auto;
+                            p{
+                                text-align: center;
+                                margin-top: 2.5rem;
+                                font-family: var(--font-comment-screen-4);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 414px) {
+    .comments{
+        width: 100%;
+        height: 40rem;
+        background-color: var(--blue-title-header-and-bg);
+        margin-top: 10rem;
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 90%;
+            height: 100%;
+            margin: 0 auto;
+            .title{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                height: 30%;
+                h1{
+                    color: #FFFF;
+                    font-family: var(--font-title-screen-4);
+                    font-size: 1.3rem;
+                    margin-top: 2rem;
+                    font-weight: 900;
+                }
+            }
+            .comment{
+                width: 100%;
+                height: 100%;
+                margin-top: -3rem;
+                .comment_one{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 18rem;
+                    .perfil{
+                        display: flex;
+                        width: 100%;
+                        height: 80%;
+                        flex-direction: column;
+                        background-color: #FFFF;
+                        border-radius: 1rem;
+                        margin-top: 1.8rem;
+                        .header{
+                            display: flex;
+                            width: 100%;
+                            height: 30%;
+                            .photo{
+                                width: 4rem;
+                                height: 4rem;
+                                border-radius: 3rem;
+                                margin-left: 2rem;
+                                margin-top: 0.70rem;
+                                background-image: url('../../assets/img/users/Photo.jpeg');
+                                background-position: center;
+                                background-size: cover;
+                            }
+                            h5{
+                                margin-top: 2rem;
+                                margin-left: 1rem;
+                                font-family: var(--font-comment-screen-4);
+                            }
+                        }
+                        .text{
+                            max-width: 90%;
+                            height: 100%;
+                            margin: 0 auto;
+                            p{
+                                text-align: center;
+                                margin-top: 2rem;
+                                font-family: var(--font-comment-screen-4);
+                                font-size: 0.80rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
