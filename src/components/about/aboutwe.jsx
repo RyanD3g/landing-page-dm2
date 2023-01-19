@@ -46,12 +46,6 @@ export const Aboutwe = () => {
                             <div className='slide'>
                                 <Splide aria-label="My Favorite Images">
                                     <SplideSlide className='slide_img'>
-                                        <div className='img'></div>
-                                    </SplideSlide>
-                                    <SplideSlide className='slide_img'>
-                                        <div className='img2'></div>
-                                    </SplideSlide>
-                                    <SplideSlide className='slide_img'>
                                         <div className='img3'></div>
                                     </SplideSlide>
                                     <SplideSlide className='slide_img'>
@@ -65,6 +59,13 @@ export const Aboutwe = () => {
                                     </SplideSlide>
                                     <SplideSlide className='slide_img'>
                                         <div className='img7'></div>
+                                    </SplideSlide>
+
+                                    <SplideSlide className='slide_img'>
+                                        <div className='img'></div>
+                                    </SplideSlide>
+                                    <SplideSlide className='slide_img'>
+                                        <div className='img2'></div>
                                     </SplideSlide>
                                 </Splide>
                             </div>

@@ -27,11 +27,11 @@ export const Questions = () => {
                         <img className='icon' src={mouse} alt="" />
                     </div>
                     <div className='button'>
+                        <a href="https://api.whatsapp.com/send?phone=5511947302292">
                         <button className='button_click'>
-                            <a href="https://api.whatsapp.com/send?phone=5511947302292">
                                 Fazer Orçamento
-                            </a>
                         </button>
+                        </a>
                     </div>
                     <div className='title_questions'>
                         <h1>PERGUNTAS FREQUENTES</h1>

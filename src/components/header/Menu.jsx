@@ -34,11 +34,11 @@ export const Menu = () => {
                     <h3 className='effect_text'>A DM2 é especializada em manutenção <br></br> predial, pinturas, e reformas em geral</h3>
                 </div>
                 <div className='button_orcamento'>
-                    <button>
                         <a href="https://api.whatsapp.com/send?phone=5511947302292">
+                    <button>
                         Fazer Orçamento
-                        </a>
                     </button>
+                        </a>
                 </div>
                 <div className='icons_services'>
                     <div className='paint'>
