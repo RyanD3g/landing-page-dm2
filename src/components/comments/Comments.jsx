@@ -8,7 +8,7 @@ export const Comments = () => {
             <div className='comments'>
                 <div className='container'>
                     <div className='title'>
-                        <h1>Conheça  depoimentos de <br></br> quem já experimentou a DM2.</h1>
+                        <h1>Conheça  depoimentos de <br></br> quem já contratou a DM2.</h1>
                     </div>
                     <div className='comment'>
                     <Splide aria-label="My Favorite Images">

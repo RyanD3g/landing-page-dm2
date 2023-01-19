@@ -38,21 +38,21 @@ export const Questions = () => {
 
                         <div className='questions'>
                             <div className='q-1'>
-                                <h3>Como posso agendar uma vista??</h3>
+                                <h3>Como posso agendar uma vista??  - <span>(CLIQUE AQUI)</span></h3>
                                 <div className='q'>
                                     <p>Temos diversos meios de comunicação, mas os mais acessiveis são atraves do nosso numero - 11 94730-2292 - Ou do nosso E-mail - dm2reformas@gmail.com</p>
                                 </div>
                             </div>
                             <hr />
                             <div className='q-2'>
-                                <h3>Preciso pagar pela visita??</h3>
+                                <h3>Preciso pagar pela visita??  - <span>(CLIQUE AQUI)</span></h3>
                                 <div className='q'>
                                     <p>Não. As visitas são feitas totalmente gratuitas, bastando marcar o dia de agendamento.</p>
                                 </div>
                             </div>
                             <hr />
                             <div className='q-3'>
-                                <h3>Fazem reformas prediais??</h3>
+                                <h3>Fazem reformas prediais?? - <span>(CLIQUE AQUI)</span></h3>
                                 <div className='q'>
                                     <p>Sim. atuamos com reformas e manutenções prediais e residenciais.</p>
                                 </div>

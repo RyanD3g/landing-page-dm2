@@ -31,7 +31,7 @@ export const Aboutwe = () => {
             <div className='screen-2'>
                 <article className='title_and_sub'>
                     <div className='title_about'>
-                        <h3>CONHEÇA <br></br> A DM2</h3>
+                        <h3>CONHEÇA A DM2</h3>
                         <div className='line'></div>
                     </div>
                     <div className='text_about'>
