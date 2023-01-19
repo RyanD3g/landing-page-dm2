@@ -49,15 +49,19 @@
                 border-radius: 1rem;
                 background-color: #FFFF;
                 border: none;
-                color: var(--blue-title-logo);
                 font-family: var(--font-options-screens-3);
                 font-weight: 700;
                 cursor: pointer;
                 transition: all 0.70s;
+                a{
+                    color: var(--blue-title-logo);
+                }
             }
             button:hover{
                 background-color: var(--blue-title-logo);
-                color: #FFFF;
+                a{
+                    color: #FFFF;
+                }
             }
         }
         .title_questions{
@@ -91,7 +95,7 @@
                     width: 100%;
                     visibility: hidden;
                     transition: all 0.3s;
-                    height: 4rem;
+                    height: 3rem;
                     p{
                         visibility: hidden;
                         transition: all 0.1s;
@@ -115,7 +119,7 @@
                 }
                 .q{
                     width: 100%;
-                    height: 4rem;
+                    height: 3rem;
                     visibility: hidden;
                     transition: all 0.5s;
                     p{
@@ -141,7 +145,7 @@
                 }
                 .q{
                     width: 100%;
-                    height: 4rem;
+                    height: 3rem;
                     visibility: hidden;
                     transition: all 0.3s;
                     p{
@@ -165,7 +169,7 @@
             .q{
                 visibility: visible;
                 background-color: #54545431;
-                height: 8rem;
+                height: 5.5rem;
                 p{
                     visibility: visible;
                 }
@@ -177,7 +181,7 @@
             .q{
                 visibility: visible;
                 background-color: #54545431;
-                height: 8rem;
+                height: 5.5rem;
                 p{
                     visibility: visible;
                 }
@@ -189,7 +193,7 @@
             .q{
                 visibility: visible;
                 background-color: #54545431;
-                height: 8rem;
+                height: 5.5rem;
                 p{
                     visibility: visible;
                 }
@@ -198,7 +202,6 @@
     }
     
 }
-
 
 @media (max-width: 764px) {
     .screen-3{
@@ -252,15 +255,19 @@
                     border-radius: 1rem;
                     background-color: #FFFF;
                     border: none;
-                    color: var(--blue-title-logo);
                     font-family: var(--font-options-screens-3);
                     font-weight: 700;
                     cursor: pointer;
                     transition: all 0.70s;
+                    a{
+                        color: var(--blue-title-logo);
+                    }
                 }
                 button:hover{
                     background-color: var(--blue-title-logo);
-                    color: #FFFF;
+                    a{
+                        color: #FFFF;
+                    }
                 }
             }
             .title_questions{
@@ -293,7 +300,6 @@
                     }
                     .q{
                         width: 100%;
-                        height: 100%;
                         visibility: hidden;
                         transition: all 0.3s;
                         p{
@@ -319,7 +325,6 @@
                     }
                     .q{
                         width: 100%;
-                        height: 100%;
                         visibility: hidden;
                         transition: all 0.5s;
                         p{
@@ -345,7 +350,6 @@
                     }
                     .q{
                         width: 100%;
-                        height: 100%;
                         visibility: hidden;
                         transition: all 0.3s;
                         p{
@@ -367,6 +371,7 @@
                 height: 30%;
                 .q{
                     visibility: visible;
+                    height: 6.5rem;
                     background-color: #54545431;
                     p{
                         visibility: visible;
@@ -378,6 +383,7 @@
                 height: 30%;
                 .q{
                     visibility: visible;
+                    height: 6.5rem;
                     background-color: #54545431;
                     p{
                         visibility: visible;
@@ -389,6 +395,7 @@
                 height: 30%;
                 .q{
                     visibility: visible;
+                    height: 6.5rem;
                     background-color: #54545431;
                     p{
                         visibility: visible;
@@ -406,7 +413,7 @@
             position: relative;
             width: 100%;
             height: 100%;
-            margin-top: 30rem;
+            margin-top: 65rem;
             .content{
                 display: flex;
                 flex-direction: column;
@@ -453,15 +460,19 @@
                         border-radius: 1rem;
                         background-color: #FFFF;
                         border: none;
-                        color: var(--blue-title-logo);
                         font-family: var(--font-options-screens-3);
                         font-weight: 700;
                         cursor: pointer;
                         transition: all 0.70s;
+                        a{
+                            color: var(--blue-title-logo);
+                        }
                     }
                     button:hover{
                         background-color: var(--blue-title-logo);
-                        color: #FFFF;
+                        a{
+                            color: #FFFF;
+                        }
                     }
                 }
                 .title_questions{
@@ -494,7 +505,6 @@
                         }
                         .q{
                             width: 100%;
-                            height: 100%;
                             visibility: hidden;
                             transition: all 0.3s;
                             p{
@@ -520,7 +530,6 @@
                         }
                         .q{
                             width: 100%;
-                            height: 100%;
                             visibility: hidden;
                             transition: all 0.5s;
                             p{
@@ -546,7 +555,6 @@
                         }
                         .q{
                             width: 100%;
-                            height: 100%;
                             visibility: hidden;
                             transition: all 0.3s;
                             p{
@@ -568,6 +576,7 @@
                     height: 30%;
                     .q{
                         visibility: visible;
+                        height: 6.5rem;
                         background-color: #54545431;
                         p{
                             visibility: visible;
@@ -579,6 +588,7 @@
                     height: 30%;
                     .q{
                         visibility: visible;
+                        height: 6.5rem;
                         background-color: #54545431;
                         p{
                             visibility: visible;
@@ -590,6 +600,7 @@
                     height: 30%;
                     .q{
                         visibility: visible;
+                        height: 6.5rem;
                         background-color: #54545431;
                         p{
                             visibility: visible;
@@ -607,7 +618,7 @@
             position: relative;
             width: 100%;
             height: 100%;
-            margin-top: 36rem;
+            margin-top: 56rem;
             .content{
                 display: flex;
                 flex-direction: column;
@@ -654,15 +665,19 @@
                         border-radius: 1rem;
                         background-color: #FFFF;
                         border: none;
-                        color: var(--blue-title-logo);
                         font-family: var(--font-options-screens-3);
                         font-weight: 700;
                         cursor: pointer;
                         transition: all 0.70s;
+                        a{
+                            color: var(--blue-title-logo);
+                        }
                     }
                     button:hover{
                         background-color: var(--blue-title-logo);
-                        color: #FFFF;
+                        a{
+                            color: #FFFF;
+                        }
                     }
                 }
                 .title_questions{
@@ -695,7 +710,6 @@
                         }
                         .q{
                             width: 100%;
-                            height: 100%;
                             visibility: hidden;
                             transition: all 0.3s;
                             p{
@@ -721,7 +735,6 @@
                         }
                         .q{
                             width: 100%;
-                            height: 100%;
                             visibility: hidden;
                             transition: all 0.5s;
                             p{
@@ -747,7 +760,6 @@
                         }
                         .q{
                             width: 100%;
-                            height: 100%;
                             visibility: hidden;
                             transition: all 0.3s;
                             p{
@@ -769,6 +781,7 @@
                     height: 30%;
                     .q{
                         visibility: visible;
+                        height: 10.5rem;
                         background-color: #54545431;
                         p{
                             visibility: visible;
@@ -780,6 +793,7 @@
                     height: 30%;
                     .q{
                         visibility: visible;
+                        height: 6.5rem;
                         background-color: #54545431;
                         p{
                             visibility: visible;
@@ -791,6 +805,7 @@
                     height: 30%;
                     .q{
                         visibility: visible;
+                        height: 6.5rem;
                         background-color: #54545431;
                         p{
                             visibility: visible;
@@ -808,7 +823,7 @@
         position: relative;
         width: 100%;
         height: 100%;
-        margin-top: 36rem;
+        margin-top: 56rem;
         .content{
             display: flex;
             flex-direction: column;
@@ -855,15 +870,19 @@
                     border-radius: 1rem;
                     background-color: #FFFF;
                     border: none;
-                    color: var(--blue-title-logo);
                     font-family: var(--font-options-screens-3);
                     font-weight: 700;
                     cursor: pointer;
                     transition: all 0.70s;
+                    a{
+                        color: var(--blue-title-logo);
+                    }
                 }
                 button:hover{
                     background-color: var(--blue-title-logo);
-                    color: #FFFF;
+                    a{
+                        color: #FFFF;
+                    }
                 }
             }
             .title_questions{
@@ -896,7 +915,6 @@
                     }
                     .q{
                         width: 100%;
-                        height: 100%;
                         visibility: hidden;
                         transition: all 0.3s;
                         p{
@@ -922,7 +940,6 @@
                     }
                     .q{
                         width: 100%;
-                        height: 100%;
                         visibility: hidden;
                         transition: all 0.5s;
                         p{
@@ -938,7 +955,6 @@
                     display: flex;
                     flex-direction: column;
                     width: 100%;
-                    height: 20%;
                     margin-top: 1rem;
                     transition: all 1s;
                     h3{
@@ -970,6 +986,7 @@
                 height: 30%;
                 .q{
                     visibility: visible;
+                    height: 11.5rem;
                     background-color: #54545431;
                     p{
                         visibility: visible;
@@ -981,6 +998,7 @@
                 height: 30%;
                 .q{
                     visibility: visible;
+                    height: 6.5rem;
                     background-color: #54545431;
                     p{
                         visibility: visible;
@@ -992,6 +1010,7 @@
                 height: 30%;
                 .q{
                     visibility: visible;
+                    height: 6.5rem;
                     background-color: #54545431;
                     p{
                         visibility: visible;
@@ -1008,7 +1027,7 @@
         position: relative;
         width: 100%;
         height: 100%;
-        margin-top: 36rem;
+        margin-top: 56rem;
         .content{
             display: flex;
             flex-direction: column;
@@ -1055,15 +1074,19 @@
                     border-radius: 1rem;
                     background-color: #FFFF;
                     border: none;
-                    color: var(--blue-title-logo);
                     font-family: var(--font-options-screens-3);
                     font-weight: 700;
                     cursor: pointer;
                     transition: all 0.70s;
+                    a{
+                        color: var(--blue-title-logo);
+                    }
                 }
                 button:hover{
                     background-color: var(--blue-title-logo);
-                    color: #FFFF;
+                    a{
+                        color: #FFFF;
+                    }
                 }
             }
             .title_questions{
@@ -1096,7 +1119,6 @@
                     }
                     .q{
                         width: 100%;
-                        height: 100%;
                         visibility: hidden;
                         transition: all 0.3s;
                         p{
@@ -1122,7 +1144,6 @@
                     }
                     .q{
                         width: 100%;
-                        height: 100%;
                         visibility: hidden;
                         transition: all 0.5s;
                         p{
@@ -1148,7 +1169,7 @@
                     }
                     .q{
                         width: 100%;
-                        height: 100%;
+                        height: 2rem;
                         visibility: hidden;
                         transition: all 0.3s;
                         p{
@@ -1169,7 +1190,9 @@
             .q-1:hover{
                 height: 30%;
                 .q{
+                    width: 125%;
                     visibility: visible;
+                    height: 12.5rem;
                     background-color: #54545431;
                     p{
                         visibility: visible;
@@ -1181,6 +1204,7 @@
                 height: 30%;
                 .q{
                     visibility: visible;
+                    height: 8.5rem;
                     background-color: #54545431;
                     p{
                         visibility: visible;
@@ -1192,6 +1216,7 @@
                 height: 30%;
                 .q{
                     visibility: visible;
+                    height: 7.5rem;
                     background-color: #54545431;
                     p{
                         visibility: visible;

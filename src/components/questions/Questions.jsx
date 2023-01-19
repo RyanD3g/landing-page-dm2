@@ -28,7 +28,9 @@ export const Questions = () => {
                     </div>
                     <div className='button'>
                         <button className='button_click'>
-                            Fazer Orçamento
+                            <a href="https://api.whatsapp.com/send?phone=5511947302292">
+                                Fazer Orçamento
+                            </a>
                         </button>
                     </div>
                     <div className='title_questions'>
@@ -36,23 +38,23 @@ export const Questions = () => {
 
                         <div className='questions'>
                             <div className='q-1'>
-                                <h3>Exemplo de pergunta?</h3>
+                                <h3>Como posso agendar uma vista??</h3>
                                 <div className='q'>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sed, nemo aut </p>
+                                    <p>Temos diversos meios de comunicação, mas os mais acessiveis são atraves do nosso numero - 11 94730-2292 - Ou do nosso E-mail - dm2reformas@gmail.com</p>
                                 </div>
                             </div>
                             <hr />
                             <div className='q-2'>
-                                <h3>Exemplo de pergunta?</h3>
+                                <h3>Preciso pagar pela visita??</h3>
                                 <div className='q'>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sed, nemo aut </p>
+                                    <p>Não. As visitas são feitas totalmente gratuitas, bastando marcar o dia de agendamento.</p>
                                 </div>
                             </div>
                             <hr />
                             <div className='q-3'>
-                                <h3>Exemplo de pergunta?</h3>
+                                <h3>Fazem reformas prediais??</h3>
                                 <div className='q'>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sed, nemo aut </p>
+                                    <p>Sim. atuamos com reformas e manutenções prediais e residenciais.</p>
                                 </div>
                             <hr />
                             </div>

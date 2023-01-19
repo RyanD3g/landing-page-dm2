@@ -12,8 +12,8 @@ import '@splidejs/react-splide/css/sea-green';
 // or only core styles
 import '@splidejs/react-splide/css/core';
 
-import img1 from '../../assets/img/services/muro-pronto.jpeg'
-import img2 from '../../assets/img/services/muro.jpeg'
+import studio from '../../assets/img/services/Studio01.jpeg'
+import house02 from '../../assets/img/services/house.jpeg'
 import { useEffect } from 'react';
 import { Benefits } from '../benefits/Benefits';
 
@@ -35,7 +35,7 @@ export const Aboutwe = () => {
                         <div className='line'></div>
                     </div>
                     <div className='text_about'>
-                        <p>Texto, exemplo exemplo teste texto Texto, exemplo exemplo teste texto Texto, exemplo exemplo teste texto Texto, exemplo exemplo teste textoTexto, exemplo exemplo teste texto</p>
+                        <p>A Dm2 é uma empresa focada em transformar seus sonhos em realidade. Pensando sempre no gosto do cliente. Estamos localizados na região sul de São Paulo, mas já atuamos por todo estado.</p>
                     </div>
                 </article>
                 <article className='slider'>
@@ -46,10 +46,25 @@ export const Aboutwe = () => {
                             <div className='slide'>
                                 <Splide aria-label="My Favorite Images">
                                     <SplideSlide className='slide_img'>
-                                        <img className="img01" src={img1} alt=""/>
+                                        <div className='img'></div>
                                     </SplideSlide>
                                     <SplideSlide className='slide_img'>
-                                        <img src={img2} alt=""/>
+                                        <div className='img2'></div>
+                                    </SplideSlide>
+                                    <SplideSlide className='slide_img'>
+                                        <div className='img3'></div>
+                                    </SplideSlide>
+                                    <SplideSlide className='slide_img'>
+                                        <div className='img4'></div>
+                                    </SplideSlide>
+                                    <SplideSlide className='slide_img'>
+                                        <div className='img5'></div>
+                                    </SplideSlide>
+                                    <SplideSlide className='slide_img'>
+                                        <div className='img6'></div>
+                                    </SplideSlide>
+                                    <SplideSlide className='slide_img'>
+                                        <div className='img7'></div>
                                     </SplideSlide>
                                 </Splide>
                             </div>

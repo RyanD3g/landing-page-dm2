@@ -35,7 +35,9 @@ export const Menu = () => {
                 </div>
                 <div className='button_orcamento'>
                     <button>
+                        <a href="https://api.whatsapp.com/send?phone=5511947302292">
                         Fazer Orçamento
+                        </a>
                     </button>
                 </div>
                 <div className='icons_services'>

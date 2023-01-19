@@ -55,20 +55,75 @@
                 font-size: 1.5rem;
             }
                 .slide{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 80%;
-                    height: 45%;
-                    margin: 0 auto;
-                    margin-top: 3rem;
+                    width: 100%;
+                    height: 100%;
                     .slide_img{
+                        float: left;
                         display: flex;
-                        width: 10rem;
+                        width: 100%;
+                        height: 100%;
                         justify-content: center;
+                        align-items: center;
                         padding-left: 0;
-                        img{
+                        .img{
                             width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio01.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 1rem;
+                        }
+                        .img2{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/house.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 1rem;
+                        }
+                        .img3{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home01.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img4{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home2.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img5{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home03.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img6{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio02.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img7{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio03.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
                             border-radius: 1rem;
                         }
                     }
@@ -81,7 +136,7 @@
 @media (max-width: 780px) {
     .screen-2{
         width: 100%;
-        height: 40rem;
+        height: 45rem;
         background-color: #FFFF;
         .title_and_sub{
             display: flex;
@@ -134,25 +189,83 @@
                     margin-top: 4rem;
                     font-size: 1.5rem;
                 }
-                    .slide{
+                .slide{
+                    width: 100%;
+                    height: 90%;
+                    .slide_img{
+                        float: left;
                         display: flex;
+                        width: 100%;
+                        height: 100%;
                         justify-content: center;
                         align-items: center;
-                        width: 80%;
-                        height: 45%;
-                        margin: 0 auto;
-                        margin-top: -4rem;
-                        .slide_img{
-                            display: flex;
-                            width: 15rem;
-                            justify-content: center;
-                            padding-left: 0;
-                            img{
-                                width: 100%;
-                                border-radius: 1rem;
-                            }
+                        padding-left: 0;
+                        .img{
+                            width: 90%;
+                            height: 20rem;
+                            background-image: url('../../assets/img/services/Studio01.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 1rem;
+                            margin-top: 5rem;
                         }
+                        .img2{
+                            width: 90%;
+                            height: 20rem;
+                            background-image: url('../../assets/img/services/house.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 1rem;
+                            margin-top: 5rem;
                         }
+                        .img3{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home01.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                            
+                        }
+                        .img4{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home2.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img5{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home03.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img6{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio02.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img7{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio03.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                    }
+                    }
                 }
             }
     }
@@ -214,30 +327,87 @@
                     margin-top: 4rem;
                     font-size: 1.5rem;
                 }
-                    .slide{
+                .slide{
+                    width: 100%;
+                    height: 90%;
+                    .slide_img{
+                        float: left;
                         display: flex;
+                        width: 100%;
+                        height: 100%;
                         justify-content: center;
                         align-items: center;
-                        width: 90%;
-                        height: 45%;
-                        margin: 0 auto;
-                        margin-top: -2rem;
-                        .slide_img{
-                            display: flex;
-                            width: 15rem;
-                            justify-content: center;
-                            padding-left: 0;
-                            img{
-                                width: 120%;
-                                border-radius: 1rem;
-                            }
+                        padding-left: 0;
+                        .img{
+                            width: 90%;
+                            height: 20rem;
+                            background-image: url('../../assets/img/services/Studio01.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 1rem;
+                            margin-top: 5rem;
                         }
+                        .img2{
+                            width: 90%;
+                            height: 20rem;
+                            background-image: url('../../assets/img/services/house.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 1rem;
+                            margin-top: 5rem;
                         }
+                        .img3{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home01.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                            
+                        }
+                        .img4{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home2.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img5{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home03.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img6{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio02.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img7{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio03.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                    }
+                    }
                 }
             }
     }
 }
-
 
 @media (max-width: 512px) {
     .screen-2{
@@ -295,30 +465,87 @@
                     margin-top: 4rem;
                     font-size: 1rem;
                 }
-                    .slide{
+                .slide{
+                    width: 100%;
+                    height: 90%;
+                    .slide_img{
+                        float: left;
                         display: flex;
+                        width: 100%;
+                        height: 100%;
                         justify-content: center;
                         align-items: center;
-                        width: 100%;
-                        height: 45%;
-                        margin: 0 auto;
-                        margin-top: -4rem;
-                        .slide_img{
-                            display: flex;
-                            width: 15rem;
-                            justify-content: center;
-                            padding-left: 0;
-                            img{
-                                width: 120%;
-                                border-radius: 1rem;
-                            }
+                        padding-left: 0;
+                        .img{
+                            width: 100%;
+                            height: 10rem;
+                            background-image: url('../../assets/img/services/Studio01.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 1rem;
+                            margin-top: 10rem;
                         }
+                        .img2{
+                            width: 100%;
+                            height: 10rem;
+                            background-image: url('../../assets/img/services/house.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 1rem;
+                            margin-top: 10rem;
                         }
+                        .img3{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home01.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                            
+                        }
+                        .img4{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home2.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img5{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home03.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img6{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio02.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img7{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio03.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                    }
+                    }
                 }
             }
     }
 }
-
 
 @media (max-width: 420px) {
     .screen-2{
@@ -376,30 +603,87 @@
                     margin-top: 4rem;
                     font-size: 1rem;
                 }
-                    .slide{
+                .slide{
+                    width: 100%;
+                    height: 90%;
+                    .slide_img{
+                        float: left;
                         display: flex;
+                        width: 100%;
+                        height: 100%;
                         justify-content: center;
                         align-items: center;
-                        width: 100%;
-                        height: 45%;
-                        margin: 0 auto;
-                        margin-top: -4rem;
-                        .slide_img{
-                            display: flex;
-                            width: 15rem;
-                            justify-content: center;
-                            padding-left: 0;
-                            img{
-                                width: 120%;
-                                border-radius: 1rem;
-                            }
+                        padding-left: 0;
+                        .img{
+                            width: 100%;
+                            height: 10rem;
+                            background-image: url('../../assets/img/services/Studio01.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 1rem;
+                            margin-top: 10rem;
                         }
+                        .img2{
+                            width: 100%;
+                            height: 10rem;
+                            background-image: url('../../assets/img/services/house.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 1rem;
+                            margin-top: 10rem;
                         }
+                        .img3{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home01.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                            
+                        }
+                        .img4{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home2.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img5{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home03.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img6{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio02.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img7{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio03.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                    }
+                    }
                 }
             }
     }
 }
-
 
 @media (max-width: 400px) {
     .screen-2{
@@ -417,7 +701,7 @@
                 height: 7rem;
                 font-size: 1.5rem;
                 margin-left: 2rem;
-                margin-top: 4rem;
+                margin-top: rem;
                 .line{
                     width: 25%;
                     height: 0.30rem;
@@ -457,25 +741,84 @@
                     margin-top: 4rem;
                     font-size: 1rem;
                 }
-                    .slide{
+                .slide{
+                    width: 100%;
+                    height: 50%;
+                    margin-top: -15rem;
+                    .slide_img{
+                        float: left;
                         display: flex;
+                        width: 100%;
+                        height: 60%;
                         justify-content: center;
                         align-items: center;
-                        width: 100%;
-                        height: 45%;
-                        margin: 0 auto;
-                        margin-top: -7rem;
-                        .slide_img{
-                            display: flex;
-                            width: 15rem;
-                            justify-content: center;
-                            padding-left: 0;
-                            img{
-                                width: 120%;
-                                border-radius: 1rem;
-                            }
+                        padding-left: 0;
+                        .img{
+                            width: 100%;
+                            height: 10rem;
+                            background-image: url('../../assets/img/services/Studio01.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 1rem;
+                            margin-top: 10rem;
                         }
+                        .img2{
+                            width: 100%;
+                            height: 10rem;
+                            background-image: url('../../assets/img/services/house.jpeg');
+                            background-position: center;
+                            background-size: cover;
+                            border-radius: 1rem;
+                            margin-top: 10rem;
                         }
+                        .img3{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home01.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                            
+                        }
+                        .img4{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home2.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img5{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Home03.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img6{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio02.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                        .img7{
+                            width: 90%;
+                            height: 30rem;
+                            background-image: url('../../assets/img/services/Studio03.jpeg');
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            border-radius: 1rem;
+                        }
+                    }
+                    }
                 }
             }
     }
